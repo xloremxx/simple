@@ -3,7 +3,7 @@
 var bs = require("browser-sync").create();
 
 bs.init({
-  proxy: 'http://meow.me',
+  proxy: 'https://xeven.icu',
   open: false,
   files: [
     '*.{html,js,css}'

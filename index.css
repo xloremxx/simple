@@ -68,3 +68,11 @@ body {
 #lovely-box .side-2 {
   background-color: #FFF;
 }
+
+@media (max-width: 800px) {
+  #lovely-box {
+    margin: 0 auto;
+    flex-direction: column;
+    width: auto;
+  }
+}
