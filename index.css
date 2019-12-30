@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dfdde2;
+  background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 1px,
+  #465298 1px,
+  #465298 20px
+  );
+  background-image: linear-gradient(45deg, #dedede 3.33%, #ffffff 3.33%, #ffffff 50%, #dedede 50%, #dedede 53.33%, #ffffff 53.33%, #ffffff 100%);
+  background-size: 21.21px 21.21px
+}
+
+#main {
+  box-sizing: border-box;
+}
+
+#lovely-box {
+  border: 1px solid #ddd;
+  width: 800px;
+  margin: 100px auto;
+  display: flex;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Kulim Park', sans-serif;
+  /*font-family: 'Monda', sans-serif;*/
+  /*font-family: 'Dosis', sans-serif;*/
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  box-shadow: 
+  0 1px 3px rgba(0,0,0,0.12), 
+  0 1px 2px rgba(0,0,0,0.24),
+  -1px -1px 2px rgba(0,0,0,0.12);
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+  /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+  /*box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);*/
+  /*box-shadow: 0 10px 6px -6px #777;*/
+}
+
+#lovely-box .side {
+  flex: 1;
+  padding: 100px 40px;
+  box-sizing: border-box;
+  line-height: 25px;
+  text-align: center;
+}
+
+#lovely-box .side-1 {
+  background-color: #4fabd0;
+  background-color: #6ec5be;
+  color: white;
+}
+
+#lovely-box .side-1 h1 {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Monda', sans-serif;
+  letter-spacing: 2px;
+}
+
+#lovely-box .side-2 {
+  background-color: #FFF;
+}

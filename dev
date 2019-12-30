@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var bs = require("browser-sync").create();
+
+bs.init({
+  proxy: 'http://meow.me',
+  open: false,
+  files: [
+    '*.{html,js,css}'
+  ],
+  ghostMode: {
+    clicks: false,
+    forms: false,
+    scroll: false
+  },
+  logConnections: true,
+  logFileChanges: true,
+});
